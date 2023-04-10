@@ -65,12 +65,12 @@
 //     );
 
 
-fetch("https://jsonplaceholder.typicode.com/albums?title=quidem molestiae enim")
-    .then((response) => response.json())
-    .then((album) =>
-        fetch(`https://jsonplaceholder.typicode.com/users?id=${album[0].userId}`)
-        .then((response) => response.json())
-        .then((user) =>
-            console.log("Owner of quidem molestiae enim:", user[0].name)
-        )
-    );
+// fetch("https://jsonplaceholder.typicode.com/albums?title=quidem molestiae enim")
+//     .then((response) => response.json())
+//     .then((album) =>
+//         fetch(`https://jsonplaceholder.typicode.com/users?id=${album[0].userId}`)
+//         .then((response) => response.json())
+//         .then((user) =>
+//             console.log("Owner of quidem molestiae enim:", user[0].name)
+//         )
+//     );
